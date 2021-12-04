@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+/* -- FIGMA STYLES -- */
+/* CONTAINER TWEET */
+
+
+/* Auto Layout */
+
+.Post {
+  border:2px solid darksalmon;
+  margin: 0 2vh 2vh 3vh;
+}
+
+.Post .author {
+  font-weight: bold;
+  border:2px solid blue;
+  margin: 0;
+}
+
+.Post .body {
+  border:2px solid red;
+  margin: 1vh 0 0 0;
+}
+
+.PostInput {
+  border:2px solid yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1vh;
+}
+
+.PostDisplay {
+  border:2px solid #89A81E;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10vh 5vh 0 5vh;
+}
