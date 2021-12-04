@@ -1,21 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 
 import PostDisplay from './components/PostDisplay';
-import PostInput from './components/PostInput';
 
 const App = function () {
-  const [submitted, setSubmitted] = useState(false);
-
-  const refreshDisplay = function () {
-    setSubmitted(true);
-    setSubmitted(false);
-  };
-
   return (
     <div>
-      <PostInput submitted={submitted} />
-      <PostDisplay refreshDisplay={refreshDisplay} />
+      <PostDisplay />
     </div>
   );
 };
